@@ -1,0 +1,84 @@
+/*estilo general*/
+body{
+	margin:10;
+	font-family: arial,helmetica, sans-serif;
+	background-color: BLACK;
+	
+}
+/*menu*/
+nav{
+	background-color: black;
+	padding:15px;
+	text-align:left;
+}
+/*enlaces*/
+nav a{
+	color: white;
+	text-decoration:white;
+	margin:10px;
+	font-size:18;
+	padding:10px 15px;
+}
+/* efecto al pasar el mouse*/
+nav a:hover{
+	background-color: red;
+	border-radius:5px;
+}
+.contenedor{
+  background: grey;
+  width: 100%;
+  margin: auto;
+  height:53%
+}
+header{
+  height:400;
+  background-image: url("../img/m.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main{
+  background: BLACK;
+  padding: 10px 20px;
+}
+.motocross{
+	background: white;
+    width: 92%;
+    margin: 40px 50px;
+    padding: 20px 20px;
+    border-radius: 10px;
+	text-align:center;
+}
+.modelos{
+  background: grey;
+  background-image: url("../img/ti.jpg");
+  width: 100%;
+  margin: auto;
+  height:53%
+}
+.tipo{
+  height:400;
+  background-image: url("../img/ti.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.pieza{
+	margin:1;
+	font-family: arial,helmetica, sans-serif;
+	background-color:white;
+	  background-image: url("../img/fo.jpg");
+}
+.seis{
+	border: 20px dashed orange;
+	
+	width: 50%;
+}
+.siete{
+	border: 20px dashed orange ;
+	
+		width: 50%;
+}
+.ocho{
+    border: 20px dashed orange;
+	
+		width: 50%;
+}
